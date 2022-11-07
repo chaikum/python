@@ -53,13 +53,13 @@ There is also a dumps() method (pronounced as “dump-s”) for writing to a Pyt
 Simple Python objects are translated to JSON according to a fairly intuitive conversion.
 
 Python	                JSON
-dict	                  object
+dict	                object
 list, tuple	            array
 str	                    string
-int, long, float	      number
-True	                  true
-False	                  false
-None	                  null
+int, long, float	    number
+True	                true
+False	                false
+None	                null
 
 A Simple Serialization Example:
 ===============================
